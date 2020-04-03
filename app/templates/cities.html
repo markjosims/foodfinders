@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- --------CITIES-------- -->
+<div class="container">
+	<span class="text-center">
+		<h1>Cities</h1>
+		<p>Search for places to eat by location</p>
+	</span>
+	<br/>
+</div>
+<div class="container">
+	<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">	
+		<thead class="thead-light">
+			<tr>
+				<th data-sortable="true">City</th>
+				<th data-sortable="true">Number of Restaurants</th>
+				<th data-sortable="true">Cuisine</th>
+				<th data-sortable="true">Country</th>
+				<th data-sortable="true">Nightlife Score</th>
+				<th data-sortable="true">Foodie Score</th>
+			</tr>
+		</thead>
+		
+		{% for city in cities %}
+		<tr>
+			<td><a href="{{url_for('city', val=city.name)}}">{{city.name}}</a></td>
+			<td>{{city.num_restaurants}}</td>
+			<td><a href="{{url_for('cuisinetype', val=city.cuisine)}}">{{city.cuisine}}</a></td>
+			<td>{{city.country}}</td>
+			<td>{{city.nightlife_index}}</td>
+			<td>{{city.score}}</td>
+		</tr>
+		{%endfor%}	
+	</table>
+</div>
+
+
+<!-- --------JAVASCRIPT-------- -->
+<!-- sortTable -->
+<!--script>
+    $(document).ready(function() {
+          $('#dataTable').DataTable();
+    });
+</script-->
+
+<script>
+$(function () {
+    $('#dataTable').DataTable({
+      "pageLength": 15,
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+      });
+  });
+</script> 
+{% endblock %}

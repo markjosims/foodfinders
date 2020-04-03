@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <span class="text-center">
+        <h1>City of {{city.name}}</h1>
+    </span>
+    <div class="row">
+        <div class="col-4">
+            <p>
+                {% if city.country %}
+                Country: {{city.country}}<br>
+                {% endif %}
+                {% if popular_cuisine %}
+                Popular Cuisines in this Area:<br>
+                <ul>
+                    {% for cuisine in popular_cuisine %}
+                    <li><a href="{{url_for('cuisinetype', val=cuisine.cuisine)}}">{{cuisine.cuisine}}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if localities %}
+                Localities in this Area:<br>
+                <ul>
+                    {% for locality in localities %}
+                    <li>{{locality.name}}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </p>
+        </div>
+        <div class="col-4">
+            <p>
+                {% if city.num_restaurants %}
+                Number of restaurants: {{city.num_restaurants}}<br>
+                {% endif %}
+                {% if restaurants %}
+                Popular Restaurants in this City:
+                <ul>
+                    {% for restaurant in restaurants %}
+                    <li><a href="{{url_for('restaurant', val=restaurant.rest_id)}}">{{restaurant.name}}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+            </p>
+        </div>
+        <div class="col-4">
+            <p>
+                <iframe 
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCARiw4sbogwiF7rQ-NO5nusfXJXeNA1bE&q={{city.name}},{{city.country}}&zoom=6"
+                    width="360px" 
+                    height="360px%" 
+                    frameborder="0" 
+                    style="border:0;" 
+                    allowfullscreen=""
+                ></iframe> 
+            </p>
+        </div>
+    </div>
+    <br>
+</div>
+
+{% endblock %}

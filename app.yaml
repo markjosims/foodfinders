@@ -1,0 +1,23 @@
+runtime: python
+env: flex
+entrypoint: gunicorn -b :$PORT main:app
+
+runtime_config:
+  python_version: 3
+
+#[START env]
+env_variables:
+  DB_STRING: >-
+    postgresql+psycopg2://postgres:abacaxi@/fooddb?host=/cloudsql/foodfinders:us-central1:foodfinders
+#[END env]
+
+#[START cloudsql_settings]
+beta_settings:
+    cloud_sql_instances: foodfinders:us-central1:foodfinders
+
+manual_scaling:
+  instances: 1
+resources:
+  cpu: 1
+  memory_gb: 0.5
+  disk_size_gb: 10

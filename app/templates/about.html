@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+	<br>
+	<span class="text-center">
+		<h2>Our Team</h2>
+	</span>
+	<br>
+
+	<div class="card-deck">
+		<div style="overflow:hidden" class="card" style="width: 5rem;">
+			<img class="card-img-top" style="transform:rotate(270deg)" src="../static/images/abel.jpg" alt="A">
+			<div class="card-body">
+				<h5 class="card-title">Abel Kim</h5>
+				<h6 class="card-subtitle mb-2 text-muted">Backend Developer</h6>
+				<p class="card-text">Mechanical Engineering major. Unit tests, main navigation.</p>
+			</div>
+		</div>
+		<div style="overflow:hidden" class="card" style="width: 5rem;">
+			<img class="card-img-top" style="transform:rotate(270deg)" src="../static/images/isaiah.jpg" alt="I">
+			<div class="card-body">
+				<h5 class="card-title">Isaiah Meyers</h5>
+				<h6 class="card-subtitle mb-2 text-muted">Backend Developer</h6>
+				<p class="card-text">Mathematics major. Splash page, about page, database model design.</p>
+			</div>
+		</div>
+		<div style="overflow:hidden" class="card" style="width: 5rem;">
+			<img class="card-img-top" style="transform:rotate(270deg)" src="../static/images/mark.jpg" alt="M">
+			<div class="card-body">
+				<h5 class="card-title">Mark Simmons</h5>
+				<h6 class="card-subtitle mb-2 text-muted">Frontend Developer</h6>
+				<p class="card-text">Linguistics major. GCP and Gitlab files, Dynamic HTML</p>
+			</div>
+		</div>
+		<div style="overflow:hidden" class="card" style="width: 5rem;">
+			<img class="card-img-top" style="transform:rotate(270deg)" src="../static/images/natalie.jpg" alt="N">
+			<div class="card-body">
+				<h5 class="card-title">Natalie Ozor</h5>
+				<h6 class="card-subtitle mb-2 text-muted">Frontend Developer</h6>
+				<p class="card-text">Mechanical Engineering major. Javascript and models pages.</p>
+			</div>
+		</div>
+		<div style="overflow:hidden" class="card" style="width: 5rem;">
+			<img class="card-img-top" style="transform:rotate(270deg);" src="../static/images/william.jpg" alt="W">
+			<div class="card-body">
+				<h5 class="card-title">William Sprague</h5>
+				<h6 class="card-subtitle mb-2 text-muted">Backend Developer</h6>
+				<p class="card-text">Chemical Engineering major. Designed the nine instance pages and scraping script.</p>
+			</div>
+		</div>
+	</div>
+
+	<br/>
+	<br/>
+	<!-- ##################################################### -->
+
+	<br>
+	<span class="text-center">
+		<h2>Stats</h2>
+		<br>
+
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th scope="col"> </th>
+					<th scope="col">Number of Commits</th>
+					<th scope="col">Number of Issues</th>
+					<th scope="col">Number of Unit Tests</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th scope="row">Abel Kim</th>
+					<td>11</td>
+					<td>4</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<th scope="row">Isaiah Meyers</th>
+					<td>10</td>
+					<td>14</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th scope="row">Mark Simmons</th>
+					<td>12</td>
+					<td>0</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th scope="row">Natalie Ozor</th>
+					<td>6</td>
+					<td>5</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th scope="row">William Sprague</th>
+					<td>21</td>
+					<td>7</td>
+					<td>0</td>
+				</tr>
+				<tr>
+					<th scope="row">Total</th>
+					<td>59</td>
+					<td>30</td>
+					<td>5</td>
+				</tr>
+			</tbody>
+		</table>
+	</span>
+	<br/>
+	<br/>
+
+	<!-- ##################################################### -->
+	<span class="text-center">
+		<br>
+		<h2>Data Sources</h2>
+		<br>
+
+		<p>The data sources for phase 1 of the project can be found <a href="https://developers.zomato.com/api">here.</a></p>
+		<p>A description of how the data was obtained can be found on the <a href="https://gitlab.com/isaiahm/cs331e-idb/-/wikis/3.-Design">Design</a> page of the wiki.</a></p>
+		<br/>
+		<br/>
+	</span>
+
+	<!-- ##################################################### -->
+	<span class="text-center">
+		<br>
+		<h2>Project Repository</h2>
+		<br>
+
+		<p>Gitlab repo is <a href="https://gitlab.com/isaiahm/cs331e-idb">here.</a></p><br>
+		<p>Wiki is located <a href="https://gitlab.com/isaiahm/cs331e-idb/-/wikis/1.-Food-Finders">here.</a></p>
+		<br/>
+		<br/>
+	</span>
+
+	<!-- ##################################################### -->
+	<span class="text-center">
+		<br>
+		<h2>Technology Used for Phase 1</h2>
+		<br>
+		<p>
+		<a href="https://flask.palletsprojects.com/en/1.1.x/">Flask</a>
+		<br/>
+		<a href="https://jinja.palletsprojects.com/en/2.11.x/">Jinja</a>
+		<br/>
+		<a href="https://cloud.google.com/">Google Cloud Platform</a>
+		<br/>
+		<a href="https://gitlab.com/">Gitlab</a>
+		<br/>
+		<a href="https://getbootstrap.com/">Bootstrap</a>
+		</p>
+		<br/>
+		<br/>
+	</span>
+
+	<!-- ##################################################### -->
+	<span class="text-center">
+		<form method="get" action="/test/">
+    		<button type="submit">Run the Unittests</button>
+		</form>
+	<br/>
+	<br/>
+
+</div>
+{% endblock %}

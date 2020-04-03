@@ -1,0 +1,1252 @@
+commit a0be54f6187852f0c82a506f76486126c7a4902e
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Thu Apr 2 18:45:26 2020 -0500
+
+    updates .yml file so IDB2.log will be recreated with every commit
+
+commit 16ca42b4481cebfd425ce0454560a2dcc88e8407
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Thu Apr 2 18:42:56 2020 -0500
+
+    Fixed html tables to initialize only once per page
+
+commit 0566e087147169b130572c531fcb9241128f8e3d
+Merge: 007b5fd ccae3c1
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Thu Apr 2 18:28:23 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 007b5fd12464d3e9db255331bd953029210a5e1f
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Thu Apr 2 18:28:17 2020 -0500
+
+    Tables sortable and pagable
+
+commit ccae3c1f23e3faf181d90fc54ffa21c00ff53184
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Thu Apr 2 17:37:53 2020 -0500
+
+    Added description of data scraping to about page
+
+commit 02fa5fbacb2018f008ee2ea291a74ebfd7e9db19
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Thu Apr 2 17:35:58 2020 -0500
+
+    Removed hashtag on Zomato link
+
+commit e04fb4d0a301d372e893c9bb5d4da2496cc01e98
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Thu Apr 2 17:34:54 2020 -0500
+
+    Added links to Gitlab repo and wiki
+
+commit f0ef387eff3e347177758bed409713d3be11f0da
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Thu Apr 2 17:30:53 2020 -0500
+
+    Updated Isaiah to "Backend Developer"
+
+commit b76d0c6cfd9810eb3105f2c07fd0460b5745c9b4
+Merge: 8856bfe c4e637b
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Thu Apr 2 17:29:54 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 8856bfe6e4ad5664bf01d0a0c6cc4a74d4b6938f
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Thu Apr 2 17:29:48 2020 -0500
+
+    Updated profiles on "About" page
+
+commit c4e637b55d39498fbab9d062e6cd13703038b882
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 16:34:55 2020 -0500
+
+    removed reference to state attr
+
+commit b455a1dd9f8e711f32d1620473e61f4589d42e95
+Merge: 180e65f 65d2643
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 16:30:10 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 180e65ff371a8b071f1525f52c17b605b65bb10a
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 16:30:04 2020 -0500
+
+    removed extraneous link in city instance page, deleted hardcoded instance pages
+
+commit 65d26431590447e0729c18d84853718adb1475a0
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Thu Apr 2 15:05:42 2020 -0500
+
+    removed IDB2.log from the gitignore file
+
+commit 34ea6a835bcd3b578734351eaed2398b66c72c06
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 14:53:28 2020 -0500
+
+    fixed unittests to reflect changes to db
+
+commit ddca122fb68b08e6b9966a1e8818438633a0e83f
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 13:24:06 2020 -0500
+
+    changed sorting to use bootstrap library
+
+commit 793072285aa4a8c6d064b065a7b738c370fd6f2b
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 12:50:54 2020 -0500
+
+    changed function call to sortTable to pass correct col id
+
+commit 149e2751436b3b71b79c674d6b94db0ea36cad13
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 12:22:50 2020 -0500
+
+    fixed columns for cities table, added info to city and cuisine instances
+
+commit 8b7c27076c9345b57a853581ad410807087e5822
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 11:49:30 2020 -0500
+
+    updated columns for cuisine table
+
+commit c389aa2f0e6cc0a27c871a1a8cc10c6a381099fd
+Merge: ae32b56 08d0272
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 10:56:11 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit ae32b56842b985b63a2db3839f7be2dbf515693d
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 10:56:05 2020 -0500
+
+    changed columns for cities table
+
+commit 08d0272ad7a018ad5565049725fc6eb7093eb581
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Thu Apr 2 10:28:29 2020 -0500
+
+    added IDB2.log
+
+commit 48128dcd951f3a7bf6a3ee1bf156ccb7c7d9090e
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Thu Apr 2 10:17:34 2020 -0500
+
+    ran pydoc to create models.html
+
+commit f79f9ea0e56911238d98dd77514767731c8d2191
+Merge: 5b70b56 d35ccb7
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Thu Apr 2 01:42:29 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 5b70b56a61d5dd06070c5982893a91b9a9a01e3d
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Thu Apr 2 01:42:16 2020 -0500
+
+    Changed url_for
+
+commit d35ccb7de8011216582a67b23e55ebeb8e58a8c9
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 01:31:06 2020 -0500
+
+    db will no longer repopulate everytime main.py is called. execute models.py and create_db.py as scripts to populate db
+
+commit fdd853251e9b11b0b8c6b846e79bbf8d6e157144
+Merge: 2e38a0f 974e1cb
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 01:28:32 2020 -0500
+
+    fixed url typos
+
+commit 2e38a0fc93b00f8c08d2ade9196b636a086b54fe
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 01:26:31 2020 -0500
+
+    updated cuisine_instance.html and added new primary key to locality model
+
+commit 974e1cbaf5b288e1b49031608b758153907762e2
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Thu Apr 2 01:23:29 2020 -0500
+
+    Cuisine table filled out
+
+commit b098173101a732ffa00ffe062b1f934af75563d4
+Merge: fe185b5 3350d15
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Thu Apr 2 00:47:25 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit fe185b5312d8e837a19da9a5bb835948d70860ed
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Thu Apr 2 00:47:12 2020 -0500
+
+    Fixed cuisine presentation on cities model table
+
+commit 3350d15fd14b962876f4627ae7a0012cf8fd0500
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 00:40:11 2020 -0500
+
+    fixed typo in urls
+
+commit bc56b3ed5593179554bb3c4d966a7d78ac79e7e4
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 00:37:04 2020 -0500
+
+    fixed typo in urls
+
+commit b0b24f2a1fb97dbddadaf43c599cd2789cd067d3
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 00:26:32 2020 -0500
+
+    removed unneeded import
+
+commit 0043bfb44ad9b559535221d1ceabc7ef21bd88e4
+Merge: be46cf4 ffda883
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 00:23:11 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit be46cf457a14aa2f429f287a435233c72597e75d
+Merge: 80169fd 5e9a38d
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 00:22:49 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 80169fdcd092a6dadb3cea57b22a44d7a4d83e47
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Thu Apr 2 00:22:46 2020 -0500
+
+    added functionality for restaurant table and instance pages
+
+commit ffda88301ad69e0ed6f8a407752336aed7ecbfb5
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Thu Apr 2 00:22:40 2020 -0500
+
+    Citys table filled out
+
+commit 5e9a38d58918dc9dfdc7223a59e3f8fde4c5df5d
+Merge: 2008e85 36c0acd
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 22:39:56 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 2008e8518fb7321f99c293354a190f6f41274dca
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 22:39:49 2020 -0500
+
+    Finished joins for cities
+
+commit 36c0acd3d5fc1f5aa760638245b5898c59b38601
+Merge: 776f13f e5caa4e
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Wed Apr 1 22:12:42 2020 -0500
+
+    fixed import statements
+
+commit 776f13fe02a44e65a6f56465d511ee95ea7f0267
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Wed Apr 1 22:09:26 2020 -0500
+
+    made fixes to restaurants.html and restaurant-instance.html
+
+commit e5caa4eccaf6af979d9d9f0149e03c5867c1e2e5
+Merge: 7de7ccd bb1347b
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 22:08:16 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 7de7ccd0f902b584a838a0e6799301abb1043027
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 22:08:01 2020 -0500
+
+    Added queries and joins to cities function
+
+commit bb1347bd81e35ee3e2635b8e9da1b0e6e93abb9e
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Apr 1 21:29:56 2020 -0500
+
+    commented tests.py
+
+commit 5b29a8fd2b29d43f21ad4617cc6f90bec9d4eeb4
+Merge: 1348228 4cbe759
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Apr 1 21:13:07 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 13482283037ec8fad09a93136b6f82e4b0e707cf
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Apr 1 21:13:03 2020 -0500
+
+    Updated docstring info
+
+commit 4cbe75940afcf531e2da432c2feedec4a97bcb0a
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Apr 1 21:11:59 2020 -0500
+
+    updated makefile again
+
+commit de63e790417ba009c0e141fbf828958a4e70d64e
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Apr 1 20:56:07 2020 -0500
+
+    minor edits
+
+commit c2b762593995f1bdd6a740f37809b3940f204342
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Apr 1 20:55:16 2020 -0500
+
+    simplified makefile and yml file
+
+commit a5e902bb84715fd8dc41cd5ba6b409253c8a4a35
+Merge: cf27cae d345fe2
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 20:43:01 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit cf27caed02b9d28439619175dbaaa1f3a561656f
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 20:42:37 2020 -0500
+
+    Moved templates and static into app, moved create_db into app.
+
+commit d345fe24b140f3197b279da05a4bd685641da2a1
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Apr 1 20:17:02 2020 -0500
+
+    updated yml file
+
+commit de653f96b4ad37351bbfd57b7d913d357c914e2d
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Apr 1 20:13:42 2020 -0500
+
+    import from models.py proper now
+
+commit eca98147ed54351a9c9a83549682299a7d01e032
+Merge: e1adf6b 79098a5
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 20:10:19 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit e1adf6b41b81833a0dfb8c0c2736d0eb726e6284
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 20:10:16 2020 -0500
+
+    idk what i changed
+
+commit 34ecfeac71f5943713616de635bfdc565181a624
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 20:08:49 2020 -0500
+
+    Changed to run locally
+
+commit 79098a5742077fc9b2004b31a218479103e55c7c
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Apr 1 20:00:02 2020 -0500
+
+    remove unneeded from main
+
+commit 57de715506ea3ac91ff42f2785d48946947c09f0
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Apr 1 19:56:01 2020 -0500
+
+    updated idb2 and yml
+
+commit a0c2b288deb13524480c97bdc3b7e0048fb499b7
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Apr 1 19:52:42 2020 -0500
+
+     moved folders to correct directory
+
+commit e38af66a09bbbeac54ef024545fe80ab2c15130b
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Apr 1 19:48:17 2020 -0500
+
+    added Unitest function from about page
+
+commit f7582c39d1a82a9828472b9a05462d6a9015b2b0
+Merge: 21a6791 17cdc24
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 19:44:26 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 21a6791f4a79dac5802f0930eaffb5974ebc269f
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 19:44:21 2020 -0500
+
+    Debugged some stuff in models and create_db
+
+commit 17cdc24c0f175e5cf82a968ee23539c5e9eefbef
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Apr 1 19:16:38 2020 -0500
+
+    removed useless tests
+
+commit b197e2018b517746c80a2937b0122579e082d822
+Merge: 6b7768c 47a3bb7
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 19:11:57 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 6b7768c80a9be75aba5aceb2c2ea19b80ddba0e9
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 19:11:52 2020 -0500
+
+    Debugging
+
+commit 47a3bb7e6a3f23c97d6a473c427b46d5af178223
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Apr 1 19:10:12 2020 -0500
+
+    typos in models.py
+
+commit bc5af1d975723859432b20f2146dbbdd789aa885
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Apr 1 19:07:06 2020 -0500
+
+    updated unittests
+
+commit faa894c5ab03008e3e78315cc6233925dc2a5b50
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 19:06:13 2020 -0500
+
+    Fixed typo
+
+commit ed517bb576176955b54935d64c224d39980ce4f4
+Merge: 7685591 c53397e
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Apr 1 16:25:47 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 7685591c32f39970c9a6d8a04cd6daac697838f4
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Apr 1 16:25:43 2020 -0500
+
+    Added comments to PullAPIData.py
+
+commit c53397e5820053a9d5f293433d586c65e29ca2fc
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 15:07:33 2020 -0500
+
+    Filled out cuisine part of create_db and renamed some vars in modles.py. Also put all import statements into create_db.py
+
+commit 4094bbb617da7ef411b2c4fcdc75b80a906535f8
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 14:46:37 2020 -0500
+
+    Filled out city part of create_db and changed some variable names in models.py
+
+commit fa70e34212730b2c6a2f0007a32fb34eb745ccf6
+Merge: 3487048 3d72187
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 13:42:10 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 3487048c24e89f47868aed86151666c23d7fda8e
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 13:41:47 2020 -0500
+
+    Filled out restaurant, highlights, and establishmnet_locality parts of create db. Did some renaming in models.py and removed left over db.relationship vars
+
+commit 3d72187aad7cae472f1e07cfdef7992ca87747a2
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Apr 1 13:33:19 2020 -0500
+
+    Added large json file
+
+commit 1ceea12b957234ad5e094131666302fb82a5315c
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Apr 1 13:20:04 2020 -0500
+
+    removed corrupted json
+
+commit 217671d4ef315645f31860cb66840d34bbaff59d
+Merge: 4087046 89e861e
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Apr 1 03:39:58 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 4087046f1b0bb82aa0e9554d2025718148c70188
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Apr 1 03:39:53 2020 -0500
+
+    Added more data in updated json
+
+commit 89e861e52d6f99430fa79056c916bfb1a7bf1288
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Apr 1 02:48:51 2020 -0500
+
+    Redid all models tables and added junction tables to match current api json output
+
+commit cc383e54f9f29629e8897ac70a15a0da9990af9f
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Tue Mar 31 21:56:54 2020 -0500
+
+    updated routing methods for instance pages
+
+commit 54384356af1d98040eaee78044c4858c565cc56d
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Tue Mar 31 21:34:38 2020 -0500
+
+    configured for GCP postreSQL database
+
+commit 68c1bce65cab2748d5576328965457ceef3e714b
+Merge: e7dc37c 0d4563e
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 19:27:21 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit e7dc37c75552785d563eb55ac8f39fd5ab028ff6
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 19:26:59 2020 -0500
+
+    Updated PullAPIData.py
+
+commit 0d4563ebf26a430ff549993d1b2fabd0f9c01634
+Merge: f154794 aa58145
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Tue Mar 31 18:31:36 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit f154794fc3834651adffc4ff4911c02987ab13a5
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Tue Mar 31 18:31:22 2020 -0500
+
+    commented out tests.py for now
+
+commit aa5814515a2ee2e492a9a80958e30c480604a143
+Merge: aae4e7e 896c946
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 18:27:10 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit aae4e7ed5e5a6bea5eecb1d765b30215ccdd63f5
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 18:27:06 2020 -0500
+
+    Added highlights and nightlife index to json
+
+commit 896c94636ea0a7162aba9c551f17019f61314425
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Tue Mar 31 18:19:26 2020 -0500
+
+    fixed indent error
+
+commit cceed76d9c473573354f5a6afc1cc8c1a3135c05
+Merge: 6224f4a 18ab43a
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 18:18:50 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 6224f4af9de51b7809bd434f312f06f23227412f
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 18:18:46 2020 -0500
+
+    Added more data to json scraper
+
+commit 18ab43a5539020e1089ec2eeec28e10e3e9ffc9e
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Tue Mar 31 18:16:30 2020 -0500
+
+    indent
+
+commit a9c6b2c5ee10c614ea35b951cc39a286fcd8ae23
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Tue Mar 31 18:11:29 2020 -0500
+
+    commented out response tester for now
+
+commit bae6618c66605cda00d535a08c5cb89ca5f45831
+Merge: 146f945 492dab3
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Tue Mar 31 18:05:23 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 146f94593534258061b19840894525035cda7608
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Tue Mar 31 18:05:08 2020 -0500
+
+    Commented out db
+
+commit 492dab3fd0c49980c5d5f60897a1f97b5cbd7972
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 17:55:05 2020 -0500
+
+    Added psycopg2 to requirements.txt
+
+commit 4ec988a33a7c99dad752eb5bfb77a2a2802e318f
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 16:07:49 2020 -0500
+
+    Added update functionality to PullAPIData.py
+
+commit 3b61ff8955277c04aac026797d6212f173dd6065
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 14:55:18 2020 -0500
+
+    Added cuisine data parsing
+
+commit 7dc95d187f7fa5450fee9a7ac5a4b350de2351ef
+Merge: 4ad538b f300979
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 14:17:37 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 4ad538b8d723ad8f9f36e78c89d62f88ea255bbf
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 14:17:33 2020 -0500
+
+    Updated PullAPIData.py to expand on city data
+
+commit f30097947db9468d9f58103013cf44bffb0d74b6
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 13:23:11 2020 -0500
+
+    updated the .yml file to reference postgres, per Prof Fraij's suggestion
+
+commit c38be43ccafc1c1235a96ecee1721933aed14296
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 12:52:26 2020 -0500
+
+    edited makefile so it more closely resembles the Collatz makefile
+
+commit 347584ae26f7718e5d92c2a7e80acabf70d646b9
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 11:47:36 2020 -0500
+
+    typo with makefile
+
+commit b5b9900306288aea7b06aef09d1a519e36b93a59
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 10:05:22 2020 -0500
+
+    typos in models.py
+
+commit 1bb41ee958924ea8193f6db0a8b29adc8307c575
+Merge: 709cb8f a706b77
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 09:50:20 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 709cb8f85cb5c0f44932cd19cc6ba1407d21a0d3
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 09:50:13 2020 -0500
+
+    Uploaded API JSON (20 restaurants)
+
+commit a706b7717fc4a21333173d47acd0d98b4299f7ff
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 09:22:20 2020 -0500
+
+    tabs and spacing in main.py
+
+commit 67a809cc4ba316ad1a51987dbe91bfb5ac4f59c2
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 09:12:43 2020 -0500
+
+    dynamic HTML to create many rows in the three tables
+
+commit 5569d08fbc7ba36954ebffbd3365430b457272f0
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 08:51:19 2020 -0500
+
+    fixed typo from last commit
+
+commit fca429e5286fdc748823b6a27fad52616d0b7ace
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 08:47:12 2020 -0500
+
+    fixed typo in models.py (changed string to String)
+
+commit d52b76f8111fd9de686daec2dd8799d06116cd4f
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 08:30:42 2020 -0500
+
+    forgot from last push
+
+commit c2cee6c1e440f6d6f5f9bb4bd1d24944bea4b4c8
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Mar 31 08:18:39 2020 -0500
+
+    first draft of generalized table pages
+
+commit 3a1a5798eada6094e8b1be95c1501b3536d188a3
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 03:48:44 2020 -0500
+
+    Started work on parser code
+
+commit 9a1d136939e26a2bf14381f70d4e157f880a8437
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Mar 31 03:22:52 2020 -0500
+
+    added functionality to retrieve data from api
+
+commit b17e6b9096ca15de6e4b15a65bf4881187b8a1c7
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Mon Mar 30 18:02:52 2020 -0500
+
+    commented out db import for now
+
+commit cd2ea0f4d140882be4226d29a9c0ac4b47a1ed7d
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Mon Mar 30 17:57:49 2020 -0500
+
+    added DB testing and commented out for now
+
+commit bef64fe2317c7feee109c6c2958eeea7154b8db1
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Mon Mar 30 17:31:36 2020 -0500
+
+    edited makefile
+
+commit 72006f8b6eeb010f460292487681d8cf85dcec9a
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Mon Mar 30 17:06:34 2020 -0500
+
+    renamed websiteUnitests to tests.py
+
+commit 7bd8f7c79ab5ecdb04e32ac4dd28d59701e5c47b
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Mon Mar 30 16:08:43 2020 -0500
+
+    Added module to pull api data and save json
+
+commit 5012e3cc0a7537539344a5130295af1c8d3e93fe
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Mon Mar 30 14:50:57 2020 -0500
+
+    forgot in last commit
+
+commit e5499050c61195e98083a610a7449b5115e89284
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Mon Mar 30 14:46:04 2020 -0500
+
+    created first draft of instance pages
+
+commit aa77b17cf534391a6cd6d32c76b8078fd7c81d10
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Mon Mar 30 11:19:34 2020 -0500
+
+    makefile now only references one log file
+
+commit cbd7b1300efc5ef6b3b6e236f6aa383d58aa93bf
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Mon Mar 30 01:15:08 2020 -0500
+
+    First iteration of models.py
+
+commit 7ac58c2fcbc1c159764886ee2ab8a7b309e82c42
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Mon Mar 30 01:13:17 2020 -0500
+
+    Skeleton code. Only load_json is filled out.
+
+commit ca575d9cad91de5ab0e38be9e72a04324599d3f4
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Sat Mar 28 10:15:25 2020 -0500
+
+    added inheritance for navbar and bootstrap (same across all pages)
+
+commit 06a86868a4ef033c5dd34d03eb9f8131223dacd9
+Merge: 675cbee 839c9d7
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Sat Mar 28 09:23:46 2020 -0500
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 675cbeea6b6b254c2b925a08007f88eee27b44cc
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Sat Mar 28 09:23:27 2020 -0500
+
+    changed file extension to lowercase
+
+commit 839c9d7c930f0169b2e5a1db36d050845eaf0918
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Thu Mar 26 17:33:30 2020 -0500
+
+    created the sort buttons with up/down arrows
+
+commit 6b7287d6364d1a960acef0293394136a6d6b298a
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Thu Feb 20 17:24:55 2020 +0000
+
+    Delete Website.log
+
+commit 06587b19fd3e9db077c62bbc31490fedbb689189
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Thu Feb 20 11:24:24 2020 -0600
+
+    add IDB1.log
+
+commit 4246252aaf174b84dd912a85118718bad49d4892
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Thu Feb 20 11:07:56 2020 -0600
+
+    editted about page
+
+commit e128d96dfc049d5275b88c86f66f91310290db12
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 16:46:14 2020 -0600
+
+    Updated cuisines pages with links and data
+
+commit aba95edc208399021b674f6ecc383bd59f928676
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 16:37:38 2020 -0600
+
+    Added italian food profile
+
+commit d0397d9153de936226170dd75dbe93e733cc3f6f
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 16:29:49 2020 -0600
+
+    Added placeholder italian cuisine file
+
+commit 3d78fe0cac15a31c718aa96135a230c6151b14c5
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 14:21:00 2020 -0600
+
+    Fixed website logo on restaurant pages (fixed #30)
+
+commit a34509e1b0d883387ae5e6bd5ad8640c956c676b
+Merge: 676d96b 40ef517
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 14:14:46 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 676d96b25c30133195371af3eea658062ce1426d
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 14:14:41 2020 -0600
+
+    Added links to Seattle page
+
+commit 4a78748bd8815ba3627105b6a593af2612e930bd
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 14:13:05 2020 -0600
+
+    Edisto Beach page updated + links added
+
+commit 40ef517299c676a3df66628a54decb759a921138
+Merge: a662ee6 ff728fc
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Feb 19 14:10:26 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit a662ee6bd540f553070f8df7663c33cdc6af6670
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Feb 19 14:10:23 2020 -0600
+
+    updated JSON file with my info
+
+commit ff728fccd564af9124b71812618297b791db21bf
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Feb 19 20:09:21 2020 +0000
+
+    Update adk2252-Project1.json
+
+commit 8b09f54e9dcad31434d39f0e5780f025e29ebf52
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 14:06:44 2020 -0600
+
+    Fixed #28
+
+commit 992441d1f47040ecfc4c81cf38624aa2b7fcf1dc
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 14:03:40 2020 -0600
+
+    Added links to other instance pages
+
+commit a0bc7674cb2aa391ec56b6fbd67756993e0fb2e9
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 13:58:09 2020 -0600
+
+    Added links to cuisine and restaurant pages
+
+commit 4f9718c13e3851e791eeca6b1e160e4ead48b965
+Merge: e18360d ec2eb3e
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 13:48:39 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit e18360d036c440c90238977c0c9d597e0c27466f
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 13:48:34 2020 -0600
+
+    Updated Whaley's restaurant page
+
+commit ec2eb3e7a96d72f4e4a2e6fb7f7fa4481876e857
+Merge: 11cb5a2 67c4a78
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Feb 19 13:47:53 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 11cb5a29e5a38ee27657b67ffcb9edd27d3a8084
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Feb 19 13:47:48 2020 -0600
+
+    rotated images in About page
+
+commit 67c4a7884bf92a87093520fdfe8d0087e7761a40
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Wed Feb 19 13:44:48 2020 -0600
+
+    edited comment to reflect reused code
+
+commit 408e1b91a239b104de853866e3e479379d83f169
+Merge: 5a2bb24 d7af518
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 13:40:14 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 5a2bb24b6aa6d4b00dacb5da9df51cac489194a4
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 13:40:09 2020 -0600
+
+    Updated restaurants
+
+commit d7af5183ecf832e816f9774aab027398d1754228
+Merge: a8570e7 1bb808e
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Feb 19 13:39:21 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit a8570e71fdf51ae82c47eaa964851b5907d6571c
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Feb 19 13:39:05 2020 -0600
+
+    JSON temp, remind Abel to turn it in
+
+commit 1bb808e0f002fef950a98b65b982a131c48a1403
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 13:30:40 2020 -0600
+
+    Fixed label of "hours"
+
+commit 1c930df207e55c04a699cd4586dc187737692978
+Merge: 94344c7 a39c3d4
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 13:28:35 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 94344c7782d3dbd509763015fea62605c12204f0
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 13:28:31 2020 -0600
+
+    Updated itemized pages
+
+commit a39c3d4c74cee3f2dc7385fe19229ae85ecfe8d2
+Merge: 42d97ab f9ff5c0
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Feb 19 13:27:01 2020 -0600
+
+    fixed merge conflicts
+
+commit 42d97ab95969572837409d8ac31497b85c68cd91
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Wed Feb 19 13:24:14 2020 -0600
+
+    changed JS file location to static, added images for About page
+
+commit f9ff5c0f3f94ed52dcb7563cfd01062591c2a7da
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Feb 19 13:23:19 2020 -0600
+
+    more minor text edits
+
+commit 38e0f8ff9bbbbedc0b2e8702b77962f4a08a3d22
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Feb 19 13:22:22 2020 -0600
+
+    more minor text fixes
+
+commit 2cce95c726d07d9b816bb7ed0c92fb4ef5dbc5f6
+Merge: f160e04 c32f708
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Feb 19 13:12:36 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit f160e04a5092ba0b3645c126c6f13aa82f35de4b
+Merge: 90df474 f3fca60
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Feb 19 13:11:42 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 90df4746837d768543150855be4386209f491ac2
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Feb 19 13:11:40 2020 -0600
+
+    minor text change
+
+commit c32f708b2e18fd36d2652d5270b0b9b7da23fa9c
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Wed Feb 19 13:11:39 2020 -0600
+
+    added gunicorn, needed for app deployment
+
+commit f3fca60c1b2af73c692c2408e018e6708508efa1
+Merge: ba925ec 7ccf686
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Feb 19 13:10:47 2020 -0600
+
+    Merge issues
+
+commit 7ccf686e4d2a74b9ace1832a2a915ac2e1e2c9e7
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Wed Feb 19 13:08:12 2020 -0600
+
+    fixed spelling and name
+
+commit ba925ec753746f1bda09943ec1303c6e6673c32b
+Merge: 3c22840 69b0aa0
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Feb 19 13:07:37 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 3c228404f2984f9cde96310165ddd2cc55bf7a35
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Feb 19 13:07:34 2020 -0600
+
+    Changed logo, centered about page text
+
+commit 69b0aa03cf96715e5443b8425e42bece5a517498
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 12:04:26 2020 -0600
+
+    Updated seattle page with map
+
+commit eef63e9a204906b2ba121d6cc47502b661803f6e
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 19 11:48:00 2020 -0600
+
+    Added Google Map to Austin city map
+
+commit 1e81350f0c5243d12a2a55b238383f7e1910c471
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Wed Feb 19 10:39:46 2020 -0600
+
+    changed reference to website route
+
+commit aa72e0acf3a0822696c5ce4f2a121ecbb19432ec
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Wed Feb 19 10:23:14 2020 -0600
+
+    fixed bug with make versions
+
+commit f3e412709ed493d5a90f490fd765942c22d5653c
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Wed Feb 19 10:00:14 2020 -0600
+
+    fixed requirements.txt to have dependencies specified in makefile
+
+commit bc0ea6a898dc0fdc6e076787e6a507c7d32a82e8
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Wed Feb 19 09:55:44 2020 -0600
+
+    added ci.yml and app.yaml. closes 24
+
+commit 4c336d809a89ec3395a7d699f5ef931f07d2586a
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Feb 18 23:51:22 2020 -0600
+
+    Added city pages
+
+commit 7a53fea6546606f7ca9b08516d006afb06d34fac
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Feb 18 23:21:42 2020 -0600
+
+    Changed instance pages to reflect tables
+
+commit 0895caa2e1c70f96c3caa9bac1cea59e5ab7a8ad
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Feb 18 23:10:46 2020 -0600
+
+    Changed routing for cities.html
+
+commit 9064913d0ad1e8f3ded460c12a55c75ca4be23d3
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Feb 18 23:10:19 2020 -0600
+
+    Added functions to main.py to route to instances
+
+commit 69080f7a03f6fb4c47a587bc54645762b8d9de33
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Tue Feb 18 22:35:26 2020 -0600
+
+    Added .vscode/ to .gitignore
+
+commit 41460958ad0f3ba6046eced79a2dc27419aafeac
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Tue Feb 18 15:53:57 2020 -0600
+
+    Fixed the merge conflict in about page table
+
+commit 6626dc7ec18eec2f9191ea0dadac59b86123f361
+Merge: 6cf3df2 6b98758
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Feb 18 14:12:22 2020 -0600
+
+    Merge branch 'master' of https://gitlab.com/isaiahm/cs331e-idb
+
+commit 6cf3df2188e84bf2014314384caf4a10fe294f03
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Feb 18 14:12:05 2020 -0600
+
+    there was a merge conflict so trying again (adjusted margins)
+
+commit dbb6962945045ed9395d97bdb5533a79529d361b
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Tue Feb 18 14:07:11 2020 -0600
+
+    updated tables, fixed navbar active status, increased page margins
+
+commit 6b9875866ea4676b6992d9ade2ce25d554b5e53a
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Tue Feb 18 13:30:03 2020 -0600
+
+    Sped up the carousel and changed the unit test number count on about page
+
+commit 25f09fe79a2cca4b33c129a5eef8142ea0705cd5
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Mon Feb 17 22:27:21 2020 -0600
+
+    Changed 'food categories' to 'cuisine'
+
+commit d920d24aee4292c91f36f8ebeb9f3b59c23edb40
+Author: Natalie Ozor <natalieozor@gmail.com>
+Date:   Mon Feb 17 21:26:55 2020 -0600
+
+    Made sortable tables for Cuisine, Restaurant, and City
+
+commit 3234db98f2bd4d6de57bdec8adb454ccf07d6c15
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Mon Feb 17 17:27:27 2020 -0600
+
+    fixed Unittests
+
+commit 736ef20eb7f1963900ead368d72ff57a8d5de422
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Mon Feb 17 16:31:54 2020 -0600
+
+    Updated Unittests
+
+commit 87d6f542d9d712365ea63d7021d34bc1fa84bdcc
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Mon Feb 17 15:35:01 2020 -0600
+
+    updated to reflect new packages added to venv
+
+commit 3110b3d46cbf22dc3137ac8260a658b900ca42e6
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Mon Feb 17 15:32:19 2020 -0600
+
+    fixed syntax errors
+
+commit 8c919e16c39f1f98c0b7507f67bd733f643ba813
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Mon Feb 17 15:09:56 2020 -0600
+
+    closes #18. gitignore updated to include standard python ignored files, and all temporary files produced by makefile
+
+commit 4f342eda8f1f2e06f40b99ea4fe3d3962b6344e7
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Mon Feb 17 15:01:37 2020 -0600
+
+    updated readme & wrote makefile.
+
+commit 5a51e4fd771fd278e0cff4778e5cc50dff95d520
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Mon Feb 17 14:10:56 2020 -0600
+
+    Stats, data, and tools used sections to about page
+
+commit cc25c46a96e89d6556a8552e1284f9bc1bc93a3c
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Mon Feb 17 13:42:21 2020 -0600
+
+    Updated navbar to have logo, put new navbar on each model page, added carousel to splash page, added images
+
+commit 512fca04d82ea80b7411b08bbd0001fbe9699433
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Mon Feb 17 10:40:05 2020 -0600
+
+    added Unittests
+
+commit d9e94c4d7609eda054de1aeb41046ee515765250
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Mon Feb 17 01:21:50 2020 -0600
+
+    Added some paths to main. Made blank models pages, navbar, and about page.
+
+commit 84fdc6fb1838f95fb209cf24e675591ec6da6e89
+Author: William W Sprague <spraguew162@utexas.edu>
+Date:   Wed Feb 12 13:05:21 2020 -0600
+
+    Added .flaskenv to autostart in main.py
+
+commit 1154c4eaa475eee4b1babca70f81214c39b2b884
+Author: Abel Kim <abel.kim.22@gmail.com>
+Date:   Mon Feb 10 21:59:29 2020 -0600
+
+    added framework (rough) for main.py
+
+commit bba8097c3a4d047ec65a1b379ff0abc543c1c1d0
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Mon Feb 10 10:13:44 2020 -0600
+
+    forgot to include in last commit
+
+commit d07e4820f1939c358dbcc864cce0fb18b1475710
+Author: Mark Simmons <marks21@utexas.edu>
+Date:   Mon Feb 10 10:02:48 2020 -0600
+
+    wrote instructions for creating a shared virtual environment in readme
+
+commit ef38e10a46ed41b24dd60fa190a6cd2227648c58
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Feb 5 17:59:17 2020 +0000
+
+    First commit
+
+commit 1754d51bc932953d6c06746179c2b9ef9dd199a5
+Author: Isaiah Meyers <isaiahm5764@gmail.com>
+Date:   Wed Feb 5 17:56:05 2020 +0000
+
+    Initial commit

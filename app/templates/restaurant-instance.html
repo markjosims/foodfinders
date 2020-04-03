@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <span class="text-center">
+        <h1>{{restaurant.name}}</h1>
+    </span>
+    <div class="row">
+        <div class="col-4">
+            <h2>Information</h2>
+            <p>
+                Location:<br>
+                    &nbsp; &nbsp;<a href="{{url_for('city', val=restaurant.city)}}">{{restaurant.city}}</a><br>
+                    &nbsp; &nbsp;{{restaurant.locality}}<br>
+                {% if cuisines %}
+                Cuisines:
+                <ul>
+                    {% for cuisine in cuisines %}
+                    <li><a href="{{url_for('cuisinetype', val=cuisine)}}">{{cuisine}}</a><br></li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <br>
+                {% endif %}
+                Rating: {{restaurant.rating}}<br>
+                {% if restaurant.price_rating %}
+                Price Rating: {{restaurant.price_rating}}<br>
+                {% endif %}
+                Price for two: {{restaurant.price_per_two}}<br>
+            </p>
+        </div>
+        <div class="col-4">
+            <h2>Menu</h2>
+            <p>
+                <a href="{{restaurant.menu}}">Menu for {{restaurant.name}}</a>
+            </p>
+            {% if restaurant.thumbnail_url %}
+                <img width="180px" height="180px"src="{{restaurant.thumbnail_url}}" style="position:relative;top:-10px">
+            {% endif %}
+        </div>
+        <div class="col-4">
+            <p>
+                {% if restaurant.coordinates %}
+                    <!--iframe 
+                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCARiw4sbogwiF7rQ-NO5nusfXJXeNA1bE&q={{restaurant.name}},{{restaurant.address}}&zoom=18"
+                        width="100%" 
+                        height="100%" 
+                        frameborder="0" 
+                        style="border:0;" 
+                        allowfullscreen=""
+                    ></iframe-->  
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="300" height="400" id="gmap_canvas" src="{{address}}" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe><a href="https://www.crocothemes.net"></a>
+                        </div><style>.mapouter{position:relative;text-align:right;height:400px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:300px;}</style>
+                    </div>
+                {% elif restaurant.address %}
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="300" height="400" id="gmap_canvas" src="{{address}}" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe><a href="https://www.crocothemes.net"></a>
+                        </div><style>.mapouter{position:relative;text-align:right;height:400px;width:300px;}.gmap_canvas {overflow:hidden;background:none!important;height:400px;width:300px;}</style>
+                    </div>
+                {% endif %}
+                {% if restaurant.address %}
+                    Street Address:<br>
+                    &nbsp; &nbsp;{{restaurant.address}}<br>
+                {% endif %}
+                {% if restaurant.hours %}
+                Hours:
+                {% for hour_str in restaurant.hours.split(sep=',') %}
+                    <br>&nbsp; &nbsp; {{hour_str}}
+                {% endfor %}   
+                <br>          
+                {% endif %}
+                {% if restaurant.phone %}
+                Phone:
+                {% for phone_str in restaurant.phone.split(sep=',') %}
+                <br>&nbsp; &nbsp; {{phone_str}}
+                {% endfor %}  
+                {% endif %}
+            </p>
+        </div>
+    </div>
+    <br>
+</div>
+{% endblock %}

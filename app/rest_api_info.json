@@ -1,0 +1,1522 @@
+{
+    "city": [
+        {
+            "city_id": "278",
+            "name": "Austin",
+            "neighborhood": [
+                "University of Texas",
+                "West Campus",
+                "The Court of Three Sisters, West Campus",
+                "Travis Heights",
+                "Downtown",
+                "Bouldin",
+                "South Congress",
+                "Oyster Landing, Clarksville",
+                "The Triangle, Hyde Park",
+                "Jollyville"
+            ],
+            "score": "4.95",
+            "nightlife_index": "5.00",
+            "establishment": [
+                "16917206",
+                "16915834",
+                "16913631",
+                "16912352",
+                "18641420",
+                "17820016",
+                "16917443",
+                "16917635",
+                "16915940",
+                "18392477",
+                "16914339",
+                "16914437",
+                "17820046",
+                "16916470",
+                "18907045",
+                "16916763",
+                "17820024",
+                "16912577",
+                "16915345",
+                "16917342",
+                "16912869",
+                "16913359",
+                "16914265",
+                "16916199",
+                "16913223",
+                "16912890",
+                "16913237",
+                "16913937",
+                "16912394",
+                "16913756"
+            ],
+            "cuisine": [
+                "Belgian",
+                "Bagels",
+                "Indian",
+                "Tex-Mex",
+                "Southern",
+                "American",
+                "Juices",
+                "Beverages",
+                "Fast Food",
+                "Desserts",
+                "Bar Food",
+                "Healthy Food",
+                "Coffee and Tea",
+                "Mexican",
+                "Sandwich",
+                "BBQ",
+                "Pizza",
+                "Burger",
+                "Mediterranean",
+                "Frozen Yogurt",
+                "Sushi",
+                "Japanese",
+                "Cafe",
+                "Ice Cream"
+            ],
+            "num_restaurants": "4676",
+            "country": "United States",
+            "popular_cuisines": [
+                "American",
+                "Drinks Only",
+                "Cafe",
+                "Mexican",
+                "Sandwich"
+            ],
+            "popular_restaurants": [
+                "16912869",
+                "16913359",
+                "16914265",
+                "16916199",
+                "16913223",
+                "16912890",
+                "16913237",
+                "16913937",
+                "16912394",
+                "16913756"
+            ]
+        }
+    ],
+    "restaurant": [
+        {
+            "rest_id": "16917206",
+            "name": "Quiznos",
+            "price": "1",
+            "rating": "0",
+            "cuisine": [
+                "Sandwich"
+            ],
+            "locality": "University of Texas",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "24th And Guadalupe Street 78713",
+            "menu": "https://www.zomato.com/austin/quiznos-university-of-texas/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "10 AM to 2 PM",
+            "coordinates": "30.2865860000,-97.7412880000",
+            "price_per_two": "25",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16917206_RESTAURANT_1e4734f96fce449a01670a772c74466f_c.jpeg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16917206_RESTAURANT_1e4734f96fce449a01670a772c74466f_c.jpeg",
+            "phone": "(512) 232-9248",
+            "highlights": [
+                "Credit Card",
+                "Lunch",
+                "Takeaway Available",
+                "Kid Friendly",
+                "Indoor Seating"
+            ]
+        },
+        {
+            "rest_id": "16915834",
+            "name": "Jamba Juice",
+            "price": "1",
+            "rating": "3.2",
+            "cuisine": [
+                "Beverages",
+                "Juices"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2300 Guadalupe Street, Suite 100, Austin 78705",
+            "menu": "https://www.zomato.com/austin/jamba-juice-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "8 AM to 9 PM (Mon-Sat),9 AM to 9 PM (Sun)",
+            "coordinates": "30.2866250000,-97.7418277778",
+            "price_per_two": "15",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16915833_CHAIN_b3c1bd356d9acfe1887771096150f63f_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16915833_CHAIN_b3c1bd356d9acfe1887771096150f63f_c.jpg",
+            "phone": "(512) 275-0290",
+            "highlights": [
+                "Credit Card",
+                "Takeaway Available",
+                "Lunch",
+                "Breakfast",
+                "Indoor Seating"
+            ]
+        },
+        {
+            "rest_id": "16913631",
+            "name": "Potbelly Sandwich Works",
+            "price": "1",
+            "rating": "3.5",
+            "cuisine": [
+                "Sandwich"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2316 Guadalupe Street 78705",
+            "menu": "https://www.zomato.com/austin/potbelly-sandwich-works-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 7 PM (Mon-Sun)",
+            "coordinates": "30.2868700000,-97.7417300000",
+            "price_per_two": "20",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16913630_CHAIN_9948c71f398fdf512c50ea38e3afa595_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16913630_CHAIN_9948c71f398fdf512c50ea38e3afa595_c.jpg",
+            "phone": "(512) 687-1423, (512) 477-0300",
+            "highlights": [
+                "Credit Card",
+                "Lunch",
+                "Takeaway Available",
+                "Dinner",
+                "Kid Friendly",
+                "Wifi",
+                "Outdoor Seating",
+                "Dog Friendly"
+            ]
+        },
+        {
+            "rest_id": "16912352",
+            "name": "Chipotle Mexican Grill",
+            "price": "1",
+            "rating": "3.8",
+            "cuisine": [
+                "Mexican"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2230 Guadalupe Street # 32 78705",
+            "menu": "https://www.zomato.com/austin/chipotle-mexican-grill-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "10:45 AM to 10 PM (Mon-Sat), Sun Closed",
+            "coordinates": "30.2856525016,-97.7420387959",
+            "price_per_two": "25",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16912351_CHAIN_39bfaa7af5dfbc7628310cd767168760_c.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16912351_CHAIN_39bfaa7af5dfbc7628310cd767168760_c.png",
+            "phone": "(512) 320-0238",
+            "highlights": [
+                "Credit Card",
+                "Dinner",
+                "Takeaway Available",
+                "Lunch",
+                "Serves Alcohol",
+                "Kid Friendly",
+                "Gluten Free Options",
+                "Vegetarian Friendly",
+                "Indoor Seating",
+                "Vegan Options"
+            ]
+        },
+        {
+            "rest_id": "18641420",
+            "name": "7-Eleven",
+            "price": "1",
+            "rating": "0",
+            "cuisine": [
+                "American",
+                "Burger",
+                "Fast Food",
+                "Coffee and Tea"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2330 Gaudalupe 78705",
+            "menu": "https://www.zomato.com/austin/7-eleven-3-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "24 Hours",
+            "coordinates": "30.2870058328,-97.7418878675",
+            "price_per_two": "15",
+            "thumbnail_url": "",
+            "featured_image": "",
+            "phone": "(512) 499-0434",
+            "highlights": [
+                "Cash",
+                "Debit Card",
+                "Takeaway Available",
+                "Lunch",
+                "Dinner",
+                "Credit Card",
+                "Delivery",
+                "Breakfast",
+                "No Seating Available",
+                "Fullbar"
+            ]
+        },
+        {
+            "rest_id": "17820016",
+            "name": "Pommes Frites Etc.",
+            "price": "1",
+            "rating": "0",
+            "cuisine": [
+                "Belgian"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "411 W 23rd Street, Austin 78705",
+            "menu": "https://www.zomato.com/austin/pommes-frites-etc-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 10 PM (Mon-Wed),11 AM to 12 Midnight (Thu),11:30 AM to 12 Midnight (Fri-Sat),11:30 AM to 8 PM (Sun)",
+            "coordinates": "30.2861986000,-97.7425615000",
+            "price_per_two": "25",
+            "thumbnail_url": "",
+            "featured_image": "",
+            "phone": "(512) 545-7877",
+            "highlights": [
+                "Takeaway Available",
+                "Dinner",
+                "Credit Card",
+                "Lunch",
+                "Kid Friendly",
+                "Wifi",
+                "Outdoor Seating"
+            ]
+        },
+        {
+            "rest_id": "16917443",
+            "name": "Lard Have Mercy",
+            "price": "1",
+            "rating": "3.0",
+            "cuisine": [
+                "Southern",
+                "American"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "411 W 23rd Street, Austin 78705",
+            "menu": "https://www.zomato.com/austin/lard-have-mercy-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 7 PM (Mon-Sat),Closed (Sun)",
+            "coordinates": "30.2861986000,-97.7425615000",
+            "price_per_two": "25",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16917443_RESTAURANT_2d162ae1b98e3e53ac526f4efe5f30b5_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16917443_RESTAURANT_2d162ae1b98e3e53ac526f4efe5f30b5_c.jpg",
+            "phone": "(512) 629-3158",
+            "highlights": [
+                "Credit Card",
+                "Lunch",
+                "Dinner",
+                "Outdoor Seating"
+            ]
+        },
+        {
+            "rest_id": "16917635",
+            "name": "The Gypsy Kit",
+            "price": "1",
+            "rating": "0",
+            "cuisine": [
+                "American"
+            ],
+            "locality": "University of Texas",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "411 W 23rd Street, Austin 78705",
+            "menu": "https://www.zomato.com/austin/the-gypsy-kit-university-of-texas/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "8 AM to 3 PM (Mon-Fri),Closed (Sat-Sun)",
+            "coordinates": "30.2861986000,-97.7425615000",
+            "price_per_two": "25",
+            "thumbnail_url": "",
+            "featured_image": "",
+            "phone": "(737) 704-1081",
+            "highlights": [
+                "Breakfast",
+                "Takeaway Available",
+                "Lunch",
+                "Outdoor Seating",
+                "Wifi",
+                "Gluten Free Options",
+                "Kid Friendly",
+                "Vegetarian Friendly"
+            ]
+        },
+        {
+            "rest_id": "16915940",
+            "name": "Caff\u00e9 Medici",
+            "price": "1",
+            "rating": "3.4",
+            "cuisine": [
+                "Cafe"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2222 Guadalupe Street, Suite B, Austin 78705",
+            "menu": "https://www.zomato.com/austin/caff\u00e9-medici-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "7 AM to 8 PM (Mon-Fri),8 AM to 5 PM (Sat-Sun)",
+            "coordinates": "30.2854833333,-97.7421805556",
+            "price_per_two": "25",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16916845_CHAIN_1bf6db95088475f9d90859aa4214d9ee_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16916845_CHAIN_1bf6db95088475f9d90859aa4214d9ee_c.jpg",
+            "phone": "(512) 474-5730",
+            "highlights": [
+                "Credit Card",
+                "Takeaway Available",
+                "Breakfast",
+                "Indoor Seating"
+            ]
+        },
+        {
+            "rest_id": "18392477",
+            "name": "Ice Scrapers",
+            "price": "1",
+            "rating": "0",
+            "cuisine": [
+                "Desserts",
+                "Ice Cream",
+                "Frozen Yogurt"
+            ],
+            "locality": "University of Texas",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "411 W 23rd Street 78705",
+            "menu": "https://www.zomato.com/austin/ice-scrapers-university-of-texas/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 9 PM (Mon-Fri),12 Noon to 9 PM (Sat),Closed (Sun)",
+            "coordinates": "30.2863860000,-97.7426600000",
+            "price_per_two": "10",
+            "thumbnail_url": "",
+            "featured_image": "",
+            "phone": "(512) 720-0627",
+            "highlights": [
+                "Cash",
+                "Takeaway Available",
+                "Credit Card",
+                "No Alcohol Available",
+                "Casual Attire",
+                "Kid Friendly",
+                "Desserts and Bakes",
+                "Street Parking",
+                "Indoor Seating"
+            ]
+        },
+        {
+            "rest_id": "16914339",
+            "name": "Which Wich",
+            "price": "1",
+            "rating": "3.6",
+            "cuisine": [
+                "Sandwich"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2348 Guadalupe Street, Austin 78705",
+            "menu": "https://www.zomato.com/austin/which-wich-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "10 AM to 10 PM (Mon-Sun)",
+            "coordinates": "30.2873833333,-97.7417305556",
+            "price_per_two": "20",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16918434_CHAIN_fce480534e2970ee39f9ba8b239765c3_c.jpeg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16918434_CHAIN_fce480534e2970ee39f9ba8b239765c3_c.jpeg",
+            "phone": "(512) 478-9424",
+            "highlights": [
+                "Takeaway Available",
+                "Dinner",
+                "Credit Card",
+                "Lunch",
+                "Vegetarian Friendly",
+                "Kid Friendly",
+                "Wifi",
+                "Vegan Options",
+                "Outdoor Seating"
+            ]
+        },
+        {
+            "rest_id": "16914437",
+            "name": "Pita Pit",
+            "price": "1",
+            "rating": "3.4",
+            "cuisine": [
+                "Mediterranean"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2350 Guadalupe Street, Austin 78705",
+            "menu": "https://www.zomato.com/austin/pita-pit-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 8 PM (Mon-Sun)",
+            "coordinates": "30.2874305556,-97.7418888889",
+            "price_per_two": "20",
+            "thumbnail_url": "https://b.zmtcdn.com/data/reviews_photos/580/38a187d098a56e512b18e8294c580580.jpg?impolicy=newcropandfit&cropw=480&croph=480&cropoffsetx=0&cropoffsety=89&cropgravity=NorthWest&fitw=200&fith=200&fittype=ignore",
+            "featured_image": "https://b.zmtcdn.com/data/reviews_photos/580/38a187d098a56e512b18e8294c580580.jpg",
+            "phone": "(512) 474-7482",
+            "highlights": [
+                "Credit Card",
+                "Takeaway Available",
+                "Lunch",
+                "Dinner",
+                "Kid Friendly",
+                "Outdoor Seating",
+                "Wifi",
+                "Vegetarian Friendly"
+            ]
+        },
+        {
+            "rest_id": "17820046",
+            "name": "The Coffee Bean & Tea Leaf",
+            "price": "1",
+            "rating": "0",
+            "cuisine": [
+                "Cafe"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2402 Guadalupe Street, Suite C, Austin 78705",
+            "menu": "https://www.zomato.com/austin/the-coffee-bean-tea-leaf-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "7 AM to 9 PM (Mon-Fri),8 AM to 9 PM (Sat-Sun)",
+            "coordinates": "30.2878444444,-97.7416444444",
+            "price_per_two": "20",
+            "thumbnail_url": "",
+            "featured_image": "",
+            "phone": "(512) 322-9820",
+            "highlights": [
+                "Takeaway Available",
+                "Lunch",
+                "Credit Card",
+                "Breakfast",
+                "Kid Friendly",
+                "Wifi",
+                "Indoor Seating"
+            ]
+        },
+        {
+            "rest_id": "16916470",
+            "name": "Subway",
+            "price": "1",
+            "rating": "2.7",
+            "cuisine": [
+                "Sandwich"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2323 San Antonio Street, Austin 78705",
+            "menu": "https://www.zomato.com/austin/subway-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "7 AM to 12 Midnight (Mon-Fri),8 AM to 12 Midnight (Sat-Sun)",
+            "coordinates": "30.2876222222,-97.7425472222",
+            "price_per_two": "20",
+            "thumbnail_url": "https://b.zmtcdn.com/data/reviews_photos/a36/0bceed549a95018aab66bed8589f4a36.jpg?impolicy=newcropandfit&cropw=715&croph=715&cropoffsetx=56&cropoffsety=0&cropgravity=NorthWest&fitw=200&fith=200&fittype=ignore",
+            "featured_image": "https://b.zmtcdn.com/data/reviews_photos/a36/0bceed549a95018aab66bed8589f4a36.jpg",
+            "phone": "(512) 476-1803",
+            "highlights": [
+                "Lunch",
+                "Credit Card",
+                "Dinner",
+                "Takeaway Available",
+                "Breakfast",
+                "Kid Friendly",
+                "Vegetarian Friendly",
+                "Outdoor Seating"
+            ]
+        },
+        {
+            "rest_id": "18907045",
+            "name": "QDOBA Mexican Eats",
+            "price": "1",
+            "rating": "0",
+            "cuisine": [],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2402 Guadalupe Street",
+            "menu": "https://www.zomato.com/austin/qdoba-mexican-eats-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "10:30 AM to 9 PM",
+            "coordinates": "30.2878161000,-97.7421181000",
+            "price_per_two": "0",
+            "thumbnail_url": "",
+            "featured_image": "",
+            "phone": "(512) 243-8118, (512) 992-9511",
+            "highlights": []
+        },
+        {
+            "rest_id": "16916763",
+            "name": "Qdoba Mexican Grill",
+            "price": "1",
+            "rating": "3.3",
+            "cuisine": [
+                "Tex-Mex",
+                "Mexican"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2402 Guadalupe Street, Austin 78705",
+            "menu": "https://www.zomato.com/austin/qdoba-mexican-grill-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 10 PM",
+            "coordinates": "30.2877777778,-97.7423166667",
+            "price_per_two": "20",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16917176_CHAIN_60ddb0b99bd920dd692cc89b0ad5da72_c.png?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16917176_CHAIN_60ddb0b99bd920dd692cc89b0ad5da72_c.png",
+            "phone": "(512) 243-8118",
+            "highlights": [
+                "Cash",
+                "Dinner",
+                "Credit Card",
+                "Takeaway Available",
+                "Lunch",
+                "Serves Alcohol",
+                "Outdoor Seating",
+                "Kid Friendly",
+                "Wifi",
+                "Gluten Free Options",
+                "Beer",
+                "Street Parking",
+                "Indoor Seating",
+                "Dog Friendly",
+                "Vegetarian Friendly",
+                "Casual Attire"
+            ]
+        },
+        {
+            "rest_id": "17820024",
+            "name": "Starbucks",
+            "price": "1",
+            "rating": "0",
+            "cuisine": [
+                "Cafe"
+            ],
+            "locality": "The Court of Three Sisters, West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "504 W 24th Street, Austin 78705",
+            "menu": "https://www.zomato.com/austin/starbucks-1-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "6 AM to 10 PM (Mon-Sun)",
+            "coordinates": "30.2877111111,-97.7426000000",
+            "price_per_two": "15",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16913954_CHAIN_c1de0d8591a71420e48fc5dbbf55b8c9_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16913954_CHAIN_c1de0d8591a71420e48fc5dbbf55b8c9_c.jpg",
+            "phone": "(512) 472-5211",
+            "highlights": [
+                "Credit Card",
+                "Breakfast",
+                "Takeaway Available",
+                "Wifi",
+                "Outdoor Seating"
+            ]
+        },
+        {
+            "rest_id": "16912577",
+            "name": "Einstein Bros. Bagels",
+            "price": "1",
+            "rating": "3.8",
+            "cuisine": [
+                "Bagels",
+                "Sandwich"
+            ],
+            "locality": "West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "2404 Guadalupe Street 78705",
+            "menu": "https://www.zomato.com/austin/einstein-bros-bagels-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "5 AM to 5 PM (Mon-Fri), 6 AM to 4 PM (Sat), 7 AM to 4 PM (Sun)",
+            "coordinates": "30.2879883406,-97.7418080755",
+            "price_per_two": "20",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16912576_CHAIN_e7d800e91ca4755cfc8a91a6e9edcce5_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16912576_CHAIN_e7d800e91ca4755cfc8a91a6e9edcce5_c.jpg",
+            "phone": "(512) 457-8722, (512) 457-8722",
+            "highlights": [
+                "Cash",
+                "Breakfast",
+                "Lunch",
+                "Credit Card",
+                "No Alcohol Available",
+                "Outdoor Seating",
+                "Kid Friendly",
+                "Wifi",
+                "Casual Attire",
+                "Indoor Seating",
+                "Dog Friendly",
+                "All Day Breakfast",
+                "Street Parking"
+            ]
+        },
+        {
+            "rest_id": "16915345",
+            "name": "Smoothie King",
+            "price": "1",
+            "rating": "3.4",
+            "cuisine": [
+                "Beverages"
+            ],
+            "locality": "The Court of Three Sisters, West Campus",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "504 W 24th Street, Suite B, Austin 78705",
+            "menu": "https://www.zomato.com/austin/smoothie-king-west-campus/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "7 AM to 9 PM (Mon-Fri),9 AM to 9 PM (Sat),11 AM to 7 PM (Sun)",
+            "coordinates": "30.2878361111,-97.7425777778",
+            "price_per_two": "20",
+            "thumbnail_url": "https://b.zmtcdn.com/data/reviews_photos/62b/6dbc7b566c46dcfe7920a68b500ea62b.jpg?impolicy=newcropandfit&cropw=827&croph=827&cropoffsetx=232&cropoffsety=0&cropgravity=NorthWest&fitw=200&fith=200&fittype=ignore",
+            "featured_image": "https://b.zmtcdn.com/data/reviews_photos/62b/6dbc7b566c46dcfe7920a68b500ea62b.jpg",
+            "phone": "(512) 474-2929",
+            "highlights": [
+                "Cash",
+                "Takeaway Available",
+                "Credit Card",
+                "No Alcohol Available",
+                "Private Parking",
+                "Indoor Seating",
+                "Casual Attire",
+                "Beverages",
+                "Outdoor Seating",
+                "Wifi"
+            ]
+        },
+        {
+            "rest_id": "16917342",
+            "name": "O's To Go",
+            "price": "1",
+            "rating": "0",
+            "cuisine": [
+                "Sandwich",
+                "Healthy Food"
+            ],
+            "locality": "University of Texas",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "UT Tower, W 24th Street, Austin 78712",
+            "menu": "https://www.zomato.com/austin/os-to-go-university-of-texas/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "7:30 AM to 1 PM (Mon-Sun)",
+            "coordinates": "30.2855860000,-97.7394710000",
+            "price_per_two": "25",
+            "thumbnail_url": "",
+            "featured_image": "",
+            "phone": "Not available for this place",
+            "highlights": [
+                "Credit Card",
+                "Breakfast",
+                "Lunch",
+                "Outdoor Seating"
+            ]
+        },
+        {
+            "rest_id": "16912869",
+            "name": "Home Slice Pizza",
+            "price": "2",
+            "rating": "4.9",
+            "cuisine": [
+                "Pizza"
+            ],
+            "locality": "Travis Heights",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "1415 S Congress Avenue, Austin 78704",
+            "menu": "https://www.zomato.com/austin/home-slice-pizza-travis-heights/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 11 PM (Mon-Thu),11 AM to 12 Midnight (Fri-Sat),11 AM to 10 PM (Sun)",
+            "coordinates": "30.2493111111,-97.7496722222",
+            "price_per_two": "30",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16912869_RESTAURANT_0f148925df0611d850745f5bbeff6546.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16912869_RESTAURANT_0f148925df0611d850745f5bbeff6546.jpg",
+            "phone": "(512) 444-7437",
+            "highlights": [
+                "Cash",
+                "Dinner",
+                "Credit Card",
+                "Takeaway Available",
+                "Lunch",
+                "Serves Alcohol",
+                "Outdoor Seating",
+                "Kid Friendly",
+                "Wifi",
+                "Vegetarian Friendly",
+                "Beer",
+                "Street Parking",
+                "Indoor Seating",
+                "Dog Friendly",
+                "Wine",
+                "Casual Attire"
+            ]
+        },
+        {
+            "rest_id": "16913359",
+            "name": "Moonshine Patio Bar & Grill",
+            "price": "2",
+            "rating": "4.8",
+            "cuisine": [
+                "Southern"
+            ],
+            "locality": "Downtown",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "303 Red River Street, Austin 78701",
+            "menu": "https://www.zomato.com/austin/moonshine-patio-bar-grill-downtown/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 10 PM (Mon-Thu),11 AM to 11 PM (Fri-Sat),9 AM to 2 PM, 5 PM to 10 PM (Sun)",
+            "coordinates": "30.2641944444,-97.7379444444",
+            "price_per_two": "60",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16913359_RESTAURANT_240da24e4133b9a5b80cdbfdeca3c271_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16913359_RESTAURANT_240da24e4133b9a5b80cdbfdeca3c271_c.jpg",
+            "phone": "(512) 236-9599",
+            "highlights": [
+                "Cash",
+                "Takeaway Available",
+                "Dinner",
+                "Credit Card",
+                "Lunch",
+                "Serves Alcohol",
+                "Valet Parking Available",
+                "Indoor Seating",
+                "Dog Friendly",
+                "Fullbar",
+                "Casual Attire",
+                "Outdoor Seating",
+                "Kid Friendly",
+                "Wifi",
+                "Brunch"
+            ]
+        },
+        {
+            "rest_id": "16914265",
+            "name": "Uchi",
+            "price": "2",
+            "rating": "4.6",
+            "cuisine": [
+                "Sushi",
+                "Japanese"
+            ],
+            "locality": "Bouldin",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "801 S Lamar Boulevard, Austin 78704",
+            "menu": "https://www.zomato.com/austin/uchi-bouldin/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "5 PM to 10 PM (Mon, Tue, Wed, Thu, Sun), 5 PM to 11 PM (Fri-Sat)",
+            "coordinates": "30.2577277778,-97.7598277778",
+            "price_per_two": "60",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16914265_RESTAURANT_295f7641e8f20a3fce560d89f87fd80c_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16914265_RESTAURANT_295f7641e8f20a3fce560d89f87fd80c_c.jpg",
+            "phone": "(512) 916-4808",
+            "highlights": [
+                "Dinner",
+                "Serves Alcohol",
+                "Cash",
+                "Credit Card",
+                "Beer",
+                "Table booking recommended",
+                "Private Parking",
+                "Outdoor Seating",
+                "Disabled Friendly",
+                "Wine",
+                "Serves Cocktails",
+                "Sake",
+                "Dressy Attire",
+                "Valet Parking Available",
+                "Indoor Seating",
+                "Wifi"
+            ]
+        },
+        {
+            "rest_id": "16916199",
+            "name": "Hopdoddy Burger Bar",
+            "price": "2",
+            "rating": "4.8",
+            "cuisine": [
+                "Burger"
+            ],
+            "locality": "South Congress",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "1400 S Congress Avenue, Austin 78704",
+            "menu": "https://www.zomato.com/austin/hopdoddy-burger-bar-south-congress/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 10 PM (Mon, Tue, Wed, Thu, Sun), 11 AM to 11 PM (Fri-Sat)",
+            "coordinates": "30.2497657000,-97.7501222000",
+            "price_per_two": "35",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/17955122_CHAIN_25080b57f356edeb65fc2fa125b972f9_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/17955122_CHAIN_25080b57f356edeb65fc2fa125b972f9_c.jpg",
+            "phone": "(512) 243-7505",
+            "highlights": [
+                "Cash",
+                "Takeaway Available",
+                "Dinner",
+                "Credit Card",
+                "Lunch",
+                "Serves Alcohol",
+                "Private Parking",
+                "Indoor Seating",
+                "Dog Friendly",
+                "Vegetarian Friendly",
+                "Wine",
+                "Serves Cocktails",
+                "Street Parking",
+                "Outdoor Seating",
+                "Kid Friendly",
+                "Wifi",
+                "Gluten Free Options",
+                "Craft Beer",
+                "Beer",
+                "Casual Attire"
+            ]
+        },
+        {
+            "rest_id": "16913223",
+            "name": "Magnolia Cafe South",
+            "price": "2",
+            "rating": "4.6",
+            "cuisine": [
+                "American",
+                "Cafe"
+            ],
+            "locality": "Bouldin",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "1920 South Congress Avenue 78704",
+            "menu": "https://www.zomato.com/austin/magnolia-cafe-south-bouldin/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "24 Hours (Mon-Sun)",
+            "coordinates": "30.2450600000,-97.7514200000",
+            "price_per_two": "45",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16913223_RESTAURANT_0bc0cbcb2704f604fc94eed6af3f8da3.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16913223_RESTAURANT_0bc0cbcb2704f604fc94eed6af3f8da3.jpg",
+            "phone": "(512) 445-0000, (512) 445-0000",
+            "highlights": [
+                "Cash",
+                "Lunch",
+                "Serves Alcohol",
+                "Credit Card",
+                "Takeaway Available",
+                "Breakfast",
+                "Dinner",
+                "Private Parking",
+                "Indoor Seating",
+                "Disabled Friendly",
+                "Gluten Free Options",
+                "All Day Breakfast",
+                "Brunch",
+                "Wine",
+                "Outdoor Seating",
+                "Kid Friendly",
+                "Vegetarian Friendly",
+                "Lunch Menu",
+                "Beer",
+                "Casual Attire"
+            ]
+        },
+        {
+            "rest_id": "16912890",
+            "name": "Hula Hut",
+            "price": "2",
+            "rating": "4.4",
+            "cuisine": [
+                "Tex-Mex",
+                "Mexican"
+            ],
+            "locality": "Oyster Landing, Clarksville",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "3825 Lake Austin Boulevard, Austin 78703",
+            "menu": "https://www.zomato.com/austin/hula-hut-clarksville/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 10 PM (Mon-Thu),11 AM to 11 PM (Fri),10:30 AM to 11 PM (Sat),10:30 AM to 10 PM (Sun)",
+            "coordinates": "30.2948083333,-97.7841555556",
+            "price_per_two": "50",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16912890_RESTAURANT_964a32bbc8a663b4f2793924f743f71b_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16912890_RESTAURANT_964a32bbc8a663b4f2793924f743f71b_c.jpg",
+            "phone": "(512) 476-4852",
+            "highlights": [
+                "Credit Card",
+                "Lunch",
+                "Serves Alcohol",
+                "Takeaway Available",
+                "Dinner",
+                "Indoor Seating",
+                "Dog Friendly",
+                "Nightlife",
+                "Outdoor Seating",
+                "Kid Friendly",
+                "Fullbar"
+            ]
+        },
+        {
+            "rest_id": "16913237",
+            "name": "Mandola's Italian",
+            "price": "2",
+            "rating": "4.5",
+            "cuisine": [
+                "Pizza",
+                "Sandwich"
+            ],
+            "locality": "The Triangle, Hyde Park",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "4700 West Guadalupe Street #12 78751",
+            "menu": "https://www.zomato.com/austin/mandolas-italian-hyde-park/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 10 PM (Mon-Sat), 11 AM to 9 PM (Sun)",
+            "coordinates": "30.3155528000,-97.7332374000",
+            "price_per_two": "50",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16913237_CHAIN_765725196137fed1fb3ab3643f89eb37_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16913237_CHAIN_765725196137fed1fb3ab3643f89eb37_c.jpg",
+            "phone": "(512) 419-9700, (512) 419-9700, (512) 524-2222",
+            "highlights": [
+                "Credit Card",
+                "Lunch",
+                "Cash",
+                "Takeaway Available",
+                "No Alcohol Available",
+                "Dinner",
+                "Indoor Seating",
+                "Dog Friendly",
+                "Gluten Free Options",
+                "Brunch",
+                "Lunch Menu",
+                "Outdoor Seating",
+                "Kid Friendly",
+                "Wifi",
+                "Vegetarian Friendly",
+                "Desserts and Bakes"
+            ]
+        },
+        {
+            "rest_id": "16913937",
+            "name": "South Congress Caf\u00e9",
+            "price": "3",
+            "rating": "4.6",
+            "cuisine": [
+                "Cafe",
+                "American",
+                "Bar Food"
+            ],
+            "locality": "Bouldin",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "1600 S Congress Avenue, Austin 78704",
+            "menu": "https://www.zomato.com/austin/south-congress-caf\u00e9-bouldin/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "10 AM to 10 PM (Mon-Fri),9 AM to 10 PM (Sat-Sun)",
+            "coordinates": "30.2478416667,-97.7504972222",
+            "price_per_two": "70",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16913937_RESTAURANT_67320570ef443ec146d98c874b33e323.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16913937_RESTAURANT_67320570ef443ec146d98c874b33e323.jpg",
+            "phone": "(512) 447-3905",
+            "highlights": [
+                "Serves Alcohol",
+                "Cash",
+                "Takeaway Available",
+                "Breakfast",
+                "Lunch",
+                "Dinner",
+                "Credit Card",
+                "Casual Attire",
+                "Indoor Seating",
+                "Lunch Menu",
+                "MasterCard for Credit Card",
+                "AMEX for Credit Card",
+                "Street Parking",
+                "Kid Friendly",
+                "Vegetarian Friendly",
+                "Brunch",
+                "Fullbar",
+                "Visa for Credit Card",
+                "Discover for Credit Card"
+            ]
+        },
+        {
+            "rest_id": "16912394",
+            "name": "Clay Pit",
+            "price": "2",
+            "rating": "4.3",
+            "cuisine": [
+                "Indian"
+            ],
+            "locality": "Downtown",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "1601 Guadalupe Street 78701",
+            "menu": "https://www.zomato.com/austin/clay-pit-downtown/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "11 AM to 2:30 PM, 4 PM to 10 PM (Mon-Thu), 11 AM to 2:30 PM, 4 PM to 11 PM (Fri), 12 Noon to 3 PM, 5 PM to 11 PM (Sat), 12 Noon to 3 PM, 5 PM to 10 PM (Sun)",
+            "coordinates": "30.2794400000,-97.7420600000",
+            "price_per_two": "55",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16912394_RESTAURANT_c692abf23a6fbf96abb7e4eaf0ecb9e4_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16912394_RESTAURANT_c692abf23a6fbf96abb7e4eaf0ecb9e4_c.jpg",
+            "phone": "(512) 322-5131, (512) 322-5131",
+            "highlights": [
+                "Credit Card",
+                "Takeaway Available",
+                "Dinner",
+                "Cash",
+                "Delivery",
+                "Lunch",
+                "Serves Alcohol",
+                "Live Music",
+                "Kid Friendly",
+                "Vegan Options",
+                "Lunch Menu",
+                "Wine",
+                "Casual Attire",
+                "Indoor Seating",
+                "Gluten Free Options",
+                "Vegetarian Friendly",
+                "Fullbar"
+            ]
+        },
+        {
+            "rest_id": "16913756",
+            "name": "Rudy's \"Country Store\" and Bar-B-Q",
+            "price": "2",
+            "rating": "4.6",
+            "cuisine": [
+                "BBQ"
+            ],
+            "locality": "Jollyville",
+            "city_id": "278",
+            "city": "Austin",
+            "state": "Texas",
+            "address": "11570 Research Boulevard. 78759",
+            "menu": "https://www.zomato.com/austin/rudys-country-store-and-bar-b-q-jollyville/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "hours": "6 AM to 9:30 PM (Mon-Thu), 6 AM to 10 PM (Fri-Sat), 7 AM to 9:30 PM (Sun)",
+            "coordinates": "30.4141543585,-97.7469867468",
+            "price_per_two": "30",
+            "thumbnail_url": "https://b.zmtcdn.com/data/res_imagery/16913756_CHAIN_2d7f562fc60f51c31a0a888c6f2563e0_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/16913756_CHAIN_2d7f562fc60f51c31a0a888c6f2563e0_c.jpg",
+            "phone": "(512) 418-9898",
+            "highlights": [
+                "Cash",
+                "Breakfast",
+                "Lunch",
+                "Serves Alcohol",
+                "Credit Card",
+                "Takeaway Available",
+                "No Alcohol Available",
+                "Dinner",
+                "Outdoor Seating",
+                "Kid Friendly",
+                "Wifi",
+                "Indoor Seating",
+                "Dog Friendly"
+            ]
+        }
+    ],
+    "cuisine": [
+        {
+            "name": "Belgian",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "0"
+            ],
+            "establishment": [
+                "17820016"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Indian",
+            "top_city": [],
+            "price": [
+                "2"
+            ],
+            "rating": [
+                "4.3"
+            ],
+            "establishment": [
+                "16912394"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Southern",
+            "top_city": [],
+            "price": [
+                "2",
+                "1"
+            ],
+            "rating": [
+                "3.0",
+                "4.8"
+            ],
+            "establishment": [
+                "16913359",
+                "16917443"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Fast Food",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "0"
+            ],
+            "establishment": [
+                "18641420"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Bar Food",
+            "top_city": [],
+            "price": [
+                "3"
+            ],
+            "rating": [
+                "4.6"
+            ],
+            "establishment": [
+                "16913937"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Healthy Food",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "0"
+            ],
+            "establishment": [
+                "16917342"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Sandwich",
+            "top_city": [
+                "278"
+            ],
+            "price": [
+                "2",
+                "1"
+            ],
+            "rating": [
+                "0",
+                "3.8",
+                "2.7",
+                "4.5",
+                "3.6",
+                "3.5"
+            ],
+            "establishment": [
+                "16912577",
+                "16914339",
+                "16916470",
+                "16917206",
+                "16917342",
+                "16913237",
+                "16913631"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Pizza",
+            "top_city": [],
+            "price": [
+                "2"
+            ],
+            "rating": [
+                "4.5",
+                "4.9"
+            ],
+            "establishment": [
+                "16913237",
+                "16912869"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Burger",
+            "top_city": [],
+            "price": [
+                "2",
+                "1"
+            ],
+            "rating": [
+                "0",
+                "4.8"
+            ],
+            "establishment": [
+                "16916199",
+                "18641420"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Mediterranean",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "3.4"
+            ],
+            "establishment": [
+                "16914437"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Ice Cream",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "0"
+            ],
+            "establishment": [
+                "18392477"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Bagels",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "3.8"
+            ],
+            "establishment": [
+                "16912577"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Tex-Mex",
+            "top_city": [],
+            "price": [
+                "2",
+                "1"
+            ],
+            "rating": [
+                "4.4",
+                "3.3"
+            ],
+            "establishment": [
+                "16912890",
+                "16916763"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "American",
+            "top_city": [
+                "278"
+            ],
+            "price": [
+                "3",
+                "2",
+                "1"
+            ],
+            "rating": [
+                "0",
+                "4.6",
+                "3.0"
+            ],
+            "establishment": [
+                "16913223",
+                "16917443",
+                "16913937",
+                "16917635",
+                "18641420"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Juices",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "3.2"
+            ],
+            "establishment": [
+                "16915834"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Beverages",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "3.4",
+                "3.2"
+            ],
+            "establishment": [
+                "16915834",
+                "16915345"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Desserts",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "0"
+            ],
+            "establishment": [
+                "18392477"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Coffee and Tea",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "0"
+            ],
+            "establishment": [
+                "18641420"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Mexican",
+            "top_city": [
+                "278"
+            ],
+            "price": [
+                "2",
+                "1"
+            ],
+            "rating": [
+                "3.8",
+                "4.4",
+                "3.3"
+            ],
+            "establishment": [
+                "16912890",
+                "16912352",
+                "16916763"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "BBQ",
+            "top_city": [],
+            "price": [
+                "2"
+            ],
+            "rating": [
+                "4.6"
+            ],
+            "establishment": [
+                "16913756"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Frozen Yogurt",
+            "top_city": [],
+            "price": [
+                "1"
+            ],
+            "rating": [
+                "0"
+            ],
+            "establishment": [
+                "18392477"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Sushi",
+            "top_city": [],
+            "price": [
+                "2"
+            ],
+            "rating": [
+                "4.6"
+            ],
+            "establishment": [
+                "16914265"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Drinks Only",
+            "top_city": [
+                "278"
+            ],
+            "price": [],
+            "rating": [],
+            "establishment": [],
+            "typical_foods": null
+        },
+        {
+            "name": "Japanese",
+            "top_city": [],
+            "price": [
+                "2"
+            ],
+            "rating": [
+                "4.6"
+            ],
+            "establishment": [
+                "16914265"
+            ],
+            "typical_foods": null
+        },
+        {
+            "name": "Cafe",
+            "top_city": [
+                "278"
+            ],
+            "price": [
+                "3",
+                "2",
+                "1"
+            ],
+            "rating": [
+                "0",
+                "4.6",
+                "3.4"
+            ],
+            "establishment": [
+                "16915940",
+                "17820024",
+                "16913223",
+                "17820046",
+                "16913937"
+            ],
+            "typical_foods": null
+        }
+    ],
+    "start": 20
+}

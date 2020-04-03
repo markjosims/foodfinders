@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <span class="text-center">
+        <h1>{{cuisine.name}} (Cuisine)</h1>
+    </span>
+    <div class="row">
+        <div class="col-4">
+            <p>
+                {% if cuisine.typical_foods %}
+                Typical Foods:<br>
+                <ul>
+                    {% for food in cuisine.typical_foods %}
+                    <li>{{food}}</li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+                {% if cuisine.avg_price_rating %}
+                Price Rating: {{cuisine.avg_price_rating}}<br>
+                {% endif %}
+                {% if cuisine.avg_rating %}
+                Average rating: {{cuisine.avg_rating}}<br>
+                {% endif %}
+            </p>
+        </div>
+        <div class="col-4">
+            {% if places %}
+            <p>
+                Restaurants serving this cuisine:
+                <ul>
+                    {% for place in places %}
+                    <li><a href="{{url_for('restaurant', val=place.rest_id)}}">{{place.name}}</a></li>
+                    {% endfor %}
+                </ul>
+            </p>
+            {% endif %}
+        </div>
+        <div class="col4">
+            {% if pop_cities %}
+            <p>
+                Cities where this cuisine is popular:
+                <ul>
+                    {% for city in pop_cities %}
+                    <li><a href="{{url_for('city', val=city)}}">{{city}}</a></li>
+                    {% endfor %}
+                </ul>
+            </p>
+            {% endif %}
+            {% if cities %}
+            <p>
+                Cities that offer this cuisine:
+                <ul>
+                    {% for city in cities %}
+                    <li><a href="{{url_for('city', val=city)}}">{{city}}</a></li>
+                    {% endfor %}
+                </ul>
+            </p>
+            {% endif %}
+        </div>
+    </div>
+    <br>
+</div>
+{% endblock %}

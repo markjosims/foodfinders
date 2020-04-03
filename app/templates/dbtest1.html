@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <span class="text-center">
+        <h1>{{restaurant.name}}</h1>
+    </span>
+    <div class="row">
+        <div class="col-4">
+            <h2>Information</h2>
+            <p>
+                Location: <a href="{{url_for('city', val=restaurant.city)}}">{{restaurant.city}}</a><br>
+                Cuisine: <a href="{{url_for('cuisinetype', val=restaurant.cuisine)}}">{{restaurant.cuisine}}</a><br>
+                Rating: {{restaurant.rating}}<br>
+            </p>
+        </div>
+        <div class="col-4">
+            <h2>Menu</h2>
+            <p>
+                Not sure how to display this yet
+            </p>
+        </div>
+        <div class="col-4">
+            <p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110246.18116114454!2d-97.8117222417969!3d30.288562199999983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5c6454af47d%3A0xe02943ec44f78cf8!2sCAVA!5e0!3m2!1sen!2sus!4v1582140093663!5m2!1sen!2sus" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                {{restaurant.address}}<br>
+                {% if restaurant.hours %}
+                Hours: {{restaurant.hours}}<br>
+                {% endif %}
+            </p>
+        </div>
+    </div>
+    <br>
+</div>
+{% endblock %}

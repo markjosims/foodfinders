@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+
+{% block content %}
+<!-- --------RESTAURANTS-------- -->
+<div class="container">
+	<span class="text-center">
+		<h1>Restaurants</h1>
+		<p>Search for places to eat by restaurant name</p>
+	</span>
+	<br/>
+</div>
+<div class="container">
+	<table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+		<thead class="thead-light">
+			<tr>
+				<th data-sortable="true">Establishment</th>
+				<th data-sortable="true">City</th>
+				<th data-sortable="true">Cuisine</th>
+				<th data-sortable="true">Price for Two </th>
+				<th data-sortable="true">Rating</th>
+			</tr>
+		</thead>
+		
+		{% for place in places %}
+		<tr>
+			<td><a href="{{url_for('restaurant', val=place.rest_id)}}">{{place.name}}</a></td>
+			<td><a href="{{url_for('city', val=place.city)}}">{{place.city}}</a></td>
+			{% if place.cuisine %}
+			<td><a href="{{url_for('cuisinetype', val=place.cuisine)}}">{{place.cuisine}}</a></td>
+			{% else %}
+			<td></td>
+			{% endif %}
+			<td>{{place.price_per_two}}</td>
+			<td>{{place.rating}}</td>
+		</tr>
+		{%endfor%}
+		
+	</table>
+</div>
+
+
+<!-- --------JAVASCRIPT-------- -->
+<!-- bootstrap -->
+<!--script>
+    $(document).ready(function() {
+          $('#dataTable').DataTable();
+    });
+</script-->
+
+<script>
+$(function () {
+    $('#dataTable').DataTable({
+      "pageLength": 15,
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false
+      });
+  });
+</script> 
+
+{% endblock %}
